@@ -1,0 +1,1 @@
+clear && flex lexer.l && bison -v parser.y -Hy.tab.h && gcc -w parser.tab.c && ./a.out<codigo_fonte2.rock

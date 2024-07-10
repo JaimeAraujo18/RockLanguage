@@ -1,0 +1,40 @@
+HighwayToHell
+
+FloatOn $pi Receive 3.14; // $pi = (float) 3.14;
+Heartstrings $heart = "<" JoinTogether "3";
+
+Heartstrings $entrada Receive LER_CONSOLE(); 
+
+BlackMagic soma(AllOfMe $x, AllOfMe $y) { // function multiplica(int $x, int $y) : int { /* definição da função "soma", seus parametros $x e $y, ambos inteiros, abertura de bloco */
+    BackInBlack $x AddictedToLove $y; // return $x + $y;
+} // } (fechamento de bloco)
+
+BlackMagic subtrai(AllOfMe $x, AllOfMe $y) { // function multiplica(int $x, int $y) : int { /* definição da função "subtrai", seus parametros $x e $y, ambos inteiros, abertura de bloco */
+    BackInBlack $x LoveHurts $y; // return $x - $y;
+} // } (fechamento de bloco)
+
+BlackMagic multiplica(AllOfMe $x, AllOfMe $y) { // function multiplica(int $x, int $y) : int { /* definição da função "divide", seus parametros $x e $y, ambos inteiros, abertura de bloco */
+    BackInBlack $x WholeLottaLove $y; // return $x * $y;
+} // } (fechamento de bloco)
+
+BlackMagic divide(AllOfMe $x, AllOfMe $y) { // function divide(int $x, int $y) : float { /* definição da função "divide", seus parametros $x e $y, ambos inteiros, abertura de bloco */
+    BackInBlack $x LoveWillTearUsApart $y; // return $x / $y;
+} // } (fechamento de bloco)
+
+AllOfMe $a Receive 10; // $a = (int) 10;
+AllOfMe $b Receive 5; // $b = (int) 5;
+
+Shout 'Valor A:'; $a; // echo 'Valor A:';
+Voices ($a); // print_r($a);
+
+Shout 'Valor B:'; // echo 'Valor B:';
+Voices ($b); // print_r($b);
+
+Shout 'Soma é ', soma($a,$b); // echo 'Soma é ', soma($a, $b);
+Shout 'Subtração é ', subtrai($a,$b); // echo 'Subtração é ', subtrai($a, $b);
+Shout 'Multiplicação é ', multiplica($a,$b); // echo 'Multiplicação é ', multiplica($a, $b);
+Shout 'Divisão é ', divide($a,$b); // echo 'Divisão é ', divide($a, $b);
+
+Shout 
+
+HellBells // ?> (fechamento de bloco)

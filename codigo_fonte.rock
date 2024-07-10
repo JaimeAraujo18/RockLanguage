@@ -1,0 +1,30 @@
+HighwayToHell
+
+BlackMagic somar(AllOfMe $a, AllOfMe $b) {
+    BackInBlack $a AddictedToLove $b;
+}
+
+HitList $pares Receive [2, 4, 6, 8, 10];
+
+AllOfMe $soma_pares Receive 0;
+
+CarryOnMyWaywardSon (AllOfMe $i Receive 0; $i UnderPressure COUNT($pares); $i Receive $i + 1) {
+    $soma Receive $soma AddictedToLove $pares[$i];
+}
+
+Shout 'Resultado da soma dos números pares: ', $soma;
+
+
+HitList $impares Receive [1, 3, 5, 7, 9];
+
+AllOfMe $soma_impares Receive 0;
+
+AllOfMe $i Receive 0;
+DontStopMeNow ($i UnderPressure TheFinalCountdown($pares); $i Receive $i + 1) {
+    $soma Receive $soma AddictedToLove $pares[$i];
+}
+
+Shout 'Resultado da soma dos números pares: ', $soma;
+// ...
+
+HellsBells

@@ -1,0 +1,31 @@
+HighwayToHell
+
+AllOfMe $a Receive 2;
+
+BlackMagic soma(AllOfMe $x, AllOfMe $y) {
+    BackInBlack $x AddictedToLove $y;
+}
+
+BlackMagic subtrai(AllOfMe $x, AllOfMe $y) {
+    BackInBlack $x LoveHurts $y;
+}
+
+BlackMagic multiplica(AllOfMe $x, AllOfMe $y) {
+    BackInBlack $x WholeLottaLove $y;
+}
+
+BlackMagic divide(AllOfMe $x, AllOfMe $y) {
+    BackInBlack $x LoveWillTearUsApart $y;
+}
+
+AllOfMe $a Receive 10;
+AllOfMe $b Receive 5;
+
+Shout 'Valor A é ', $a;
+Shout 'Valor B é ', $b;
+Shout 'Soma é ', soma($a,$b);
+Shout 'Subtração é ', subtrai($a,$b);
+Shout 'Multiplicação é ', multiplica($a,$b);
+Shout 'Divisão é ', divide($a,$b);
+
+HellBells
